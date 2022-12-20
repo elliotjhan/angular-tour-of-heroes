@@ -7,6 +7,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component'; //automatically done by ng generate
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [ // declare your components here after importing them. also done automatically by ng generate
@@ -20,6 +21,7 @@ import { DashboardComponent } from './dashboard/dashboard.component'; //automati
     BrowserModule,
     FormsModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
